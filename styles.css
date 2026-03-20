@@ -1827,6 +1827,279 @@ blockquote::after  { content: '\201D'; color: var(--gold); font-size: 3rem; line
   margin: 0;
 }
 
+/* ─── Hope & Perseverance ────────────────────────────────────── */
+#hope {
+  background: linear-gradient(150deg, #0d1510 0%, #111a14 40%, var(--dark-mid) 100%);
+  position: relative;
+  overflow: hidden;
+}
+#hope::before {
+  content: '';
+  position: absolute;
+  top: -60px; left: -80px;
+  width: 380px; height: 380px;
+  background: radial-gradient(circle, rgba(240, 160, 40, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+#hope::after {
+  content: '';
+  position: absolute;
+  bottom: -80px; right: -60px;
+  width: 320px; height: 320px;
+  background: radial-gradient(circle, rgba(80, 190, 100, 0.10) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ── Core declaration ── */
+.hope-declaration {
+  max-width: 860px;
+  margin: 0 auto 3.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, #f0a028, #50be64) 1;
+  border-radius: 0 14px 14px 0;
+  padding: 1.8rem 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hope-decl-ti {
+  margin-bottom: 1.2rem;
+}
+.hope-decl-ti p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.75;
+  margin: 0 0 0.6rem;
+}
+.hope-decl-ti p:last-child { margin: 0; }
+
+.hope-decl-en {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.7;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  padding-top: 1rem;
+  margin: 0;
+}
+
+/* ── Three cards ── */
+.hope-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.6rem;
+  max-width: 1100px;
+  margin: 0 auto 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hope-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 1.8rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+.hope-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(240, 160, 40, 0.3);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+}
+
+.hope-card-icon { font-size: 2.2rem; }
+
+.hope-card-badge {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  background: rgba(240, 160, 40, 0.1);
+  border: 1px solid rgba(240, 160, 40, 0.25);
+  border-radius: 20px;
+  font-size: 0.78rem;
+  color: #f0a028;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.hope-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.hope-card-text {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.hope-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.hope-card-list li {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  padding-left: 1.2rem;
+  position: relative;
+  line-height: 1.5;
+}
+.hope-card-list li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: #f0a028;
+  font-weight: 700;
+}
+
+.hope-card-ti {
+  font-size: 0.81rem;
+  font-style: italic;
+  color: rgba(240, 160, 40, 0.65);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 0.7rem;
+  line-height: 1.55;
+  margin: 0;
+  margin-top: auto;
+}
+
+/* ── Why hope matters ── */
+.hope-why {
+  max-width: 860px;
+  margin: 0 auto 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hope-why-tag {
+  display: inline-block;
+  padding: 0.25rem 0.9rem;
+  background: rgba(240, 160, 40, 0.08);
+  border: 1px solid rgba(240, 160, 40, 0.2);
+  border-radius: 20px;
+  font-size: 0.78rem;
+  color: #f0a028;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.7rem;
+}
+
+.hope-why-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #f0a028, #50be64);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 1.6rem;
+}
+
+.hope-why-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.hope-why-item {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  transition: border-color var(--transition);
+}
+.hope-why-item:hover { border-color: rgba(240, 160, 40, 0.2); }
+
+.hope-why-num {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #f0a028;
+  background: rgba(240, 160, 40, 0.1);
+  border: 1px solid rgba(240, 160, 40, 0.25);
+  border-radius: 6px;
+  padding: 0.2rem 0.55rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.hope-why-item strong {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+}
+
+.hope-why-item p {
+  font-size: 0.87rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0 0 0.4rem;
+}
+.hope-why-item p:last-child { margin: 0; }
+
+.hope-why-ti {
+  font-style: italic;
+  color: rgba(240, 160, 40, 0.6) !important;
+  font-size: 0.82rem !important;
+  border-left: 2px solid rgba(240, 160, 40, 0.25);
+  padding-left: 0.8rem;
+  line-height: 1.55 !important;
+}
+
+/* ── Affirmation banner ── */
+.hope-affirm {
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.hope-affirm-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  background: linear-gradient(135deg, rgba(240, 160, 40, 0.07), rgba(80, 190, 100, 0.05));
+  border: 1px solid rgba(240, 160, 40, 0.22);
+  border-radius: 16px;
+  padding: 1.6rem 1.8rem;
+}
+
+.hope-affirm-icon { font-size: 2rem; flex-shrink: 0; margin-top: 0.1rem; }
+
+.hope-affirm-ti {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.65;
+  margin: 0 0 0.6rem;
+}
+
+.hope-affirm-en {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0;
+}
+
 /* ─── Footer ─────────────────────────────────────────────────── */
 footer {
   background: var(--dark-mid);
