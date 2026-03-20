@@ -497,6 +497,122 @@ blockquote::after  { content: '\201D'; color: var(--gold); font-size: 3rem; line
   margin-top: 1rem;
 }
 
+/* ─── Faith & Spiritual Journey ─────────────────────────────── */
+#faith {
+  background: linear-gradient(150deg, #160a10 0%, #1a0d15 40%, var(--dark-mid) 100%);
+  position: relative;
+  overflow: hidden;
+}
+#faith::before {
+  content: '';
+  position: absolute;
+  top: -80px; right: -80px;
+  width: 360px; height: 360px;
+  background: radial-gradient(circle, rgba(180, 30, 60, 0.18) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+#faith::after {
+  content: '';
+  position: absolute;
+  bottom: -60px; left: -60px;
+  width: 280px; height: 280px;
+  background: radial-gradient(circle, rgba(201, 162, 39, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.faith-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3.5rem;
+  align-items: center;
+  max-width: 920px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 700px) {
+  .faith-wrapper { grid-template-columns: 1fr; justify-items: center; }
+}
+
+.faith-image-wrap {
+  flex-shrink: 0;
+}
+
+.faith-image {
+  width: 240px;
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 1px rgba(201, 162, 39, 0.2),
+    0 12px 40px rgba(180, 30, 60, 0.35),
+    0 24px 80px rgba(0, 0, 0, 0.4);
+  display: block;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.faith-image:hover {
+  transform: scale(1.03) translateY(-4px);
+  box-shadow:
+    0 0 0 1px rgba(201, 162, 39, 0.35),
+    0 20px 60px rgba(180, 30, 60, 0.45),
+    0 32px 100px rgba(0, 0, 0, 0.5);
+}
+
+.faith-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.faith-verses {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.faith-verse {
+  padding: 1.2rem 1.4rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 3px solid;
+  border-image: linear-gradient(180deg, #c9a227, #b41e3c) 1;
+  border-radius: 0 10px 10px 0;
+}
+
+.faith-ti {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.45rem;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+.faith-en {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.55;
+}
+
+.faith-symbols {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.faith-sym {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 1rem;
+  background: rgba(201, 162, 39, 0.08);
+  border: 1px solid rgba(201, 162, 39, 0.22);
+  border-radius: 30px;
+  font-size: 0.85rem;
+  color: var(--gold-light);
+}
+.faith-sym em { font-style: normal; }
+
 /* ─── Footer ─────────────────────────────────────────────────── */
 footer {
   background: var(--dark-mid);

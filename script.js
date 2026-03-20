@@ -19,6 +19,11 @@ const translations = {
     sectionJusticeDesc: "Fairness is the foundation of lasting peace between peoples.",
     joinTitle: "Join the Movement",
     joinDesc: "Be part of a global community committed to peace, understanding, and cross-cultural friendship.",
+    sectionFaith: "Walking with the Creator",
+    sectionFaithDesc: "Every step of our journey should be grounded in the Creator.",
+    faithVerse1: "Every step of our journey should be grounded in the Creator.",
+    faithVerse2: "Because a path and life journey without the Creator is difficult and impossible.",
+    faithVerse3: "Therefore, for our success and well-being, we should walk with the Creator.",
   },
   ti: {
     heroTitle:    "ሰላምን ርክብን <span class='highlight'>ብሃብታምነት ባህሊ</span>",
@@ -36,7 +41,12 @@ const translations = {
     sectionJustice: "ፍትሕን መሰላትን",
     sectionJusticeDesc: "ፍትሒ ናይ ቀዋሚ ሰላም ናይ ህዝቢ ሰረት እዩ።",
     joinTitle: "ናብ ምንቅስቓስ ተጸምበር",
-    joinDesc: "ንሰላም፡ ምፍልላጥን ሰሪሖም ርክብን ዝቆረጸ ዓለምለኻዊ ማሕበረሰብ ተሳተፍ።",
+    joinDesc: "ንሰላም፡ ምፍልላጥን ሰሪሖም ርክብን ዝቆረጸ ዓለምለኻዊ ማሕበረሰብ ተሳታፍ።",
+    sectionFaith: "ምስ ፈጣሪ ምጓዕዞ",
+    sectionFaithDesc: "ነብስ ወከፍ ጉዕዞና ኣብ ፈጣሪ ዝተመርኮሰ ክኸውን ይግበኣና ።",
+    faithVerse1: "ነብስ ወከፍ ጉዕዞና ኣብ ፈጣሪ ዝተመርኮሰ ክኸውን ይግበኣና ።",
+    faithVerse2: "ምክንያቱ ፈጣሪ ዘይተሓወሶ መንገድን ጉዕዞ ሂወትን ከቢድን ኣይከኣልን እዩ ።",
+    faithVerse3: "ስለዚ ንዓወትና ንነብስናን ክሕሸና ክንብል ምስፈጣሪ ክንጓዓዝ ይግበኣና ።",
   }
 };
 
