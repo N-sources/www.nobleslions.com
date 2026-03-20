@@ -876,6 +876,243 @@ blockquote::after  { content: '\201D'; color: var(--gold); font-size: 3rem; line
   line-height: 1.65;
 }
 
+/* ─── Governance ─────────────────────────────────────────────── */
+#governance {
+  background: linear-gradient(150deg, #081a12 0%, #0d2018 40%, var(--dark-mid) 100%);
+  position: relative;
+  overflow: hidden;
+}
+#governance::before {
+  content: '';
+  position: absolute;
+  top: -100px; right: -80px;
+  width: 380px; height: 380px;
+  background: radial-gradient(circle, rgba(20, 140, 80, 0.14) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+#governance::after {
+  content: '';
+  position: absolute;
+  bottom: -80px; left: -60px;
+  width: 280px; height: 280px;
+  background: radial-gradient(circle, rgba(201, 162, 39, 0.09) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ── Definition block ── */
+.gov-definition {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3rem;
+  align-items: start;
+  max-width: 980px;
+  margin: 0 auto 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 760px) {
+  .gov-definition { grid-template-columns: 1fr; }
+}
+
+.gov-def-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.gov-def-text p {
+  font-size: 0.93rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 0.9rem;
+}
+.gov-def-text p em { color: var(--gold-light); font-style: normal; font-weight: 600; }
+
+.gov-def-ti {
+  font-size: 0.87rem !important;
+  font-style: italic !important;
+  color: rgba(201, 162, 39, 0.65) !important;
+  border-left: 2px solid rgba(201, 162, 39, 0.3);
+  padding-left: 1rem;
+  line-height: 1.7 !important;
+}
+
+.gov-def-pillars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+  flex-shrink: 0;
+}
+
+.gov-pillar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.9rem 0.7rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  text-align: center;
+  transition: border-color var(--transition), transform var(--transition);
+  min-width: 100px;
+}
+.gov-pillar:hover {
+  border-color: rgba(20, 160, 80, 0.3);
+  transform: translateY(-3px);
+}
+
+.gov-pillar-icon { font-size: 1.5rem; }
+.gov-pillar strong {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.gov-pillar span {
+  font-size: 0.72rem;
+  color: rgba(20, 200, 100, 0.75);
+  font-style: italic;
+}
+
+/* ── How-it's-conducted header ── */
+.gov-how-header {
+  max-width: 860px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.gov-how-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #3ecf82, var(--gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0.5rem 0;
+}
+
+.gov-how-desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+/* ── Steps accordion ── */
+.gov-steps {
+  max-width: 860px;
+  margin: 0 auto 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  position: relative;
+  z-index: 1;
+}
+
+.gov-step {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color var(--transition);
+}
+.gov-step[open] {
+  border-color: rgba(62, 207, 130, 0.35);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gov-step-head {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.4rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--transition);
+}
+.gov-step-head::-webkit-details-marker { display: none; }
+.gov-step-head::marker { display: none; }
+.gov-step-head:hover { background: rgba(255, 255, 255, 0.04); }
+
+.gov-num {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #3ecf82;
+  background: rgba(62, 207, 130, 0.1);
+  border: 1px solid rgba(62, 207, 130, 0.25);
+  border-radius: 6px;
+  padding: 0.2rem 0.55rem;
+  flex-shrink: 0;
+}
+
+.gov-step-label {
+  flex: 1;
+  font-size: 0.97rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.gov-chevron {
+  font-size: 1.3rem;
+  color: var(--text-muted);
+  transition: transform var(--transition);
+  flex-shrink: 0;
+}
+.gov-step[open] .gov-chevron { transform: rotate(90deg); }
+
+.gov-step-body {
+  padding: 0 1.4rem 1.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+.gov-step-body p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-top: 0.9rem;
+}
+.gov-step-body .gov-step-ti {
+  font-style: italic;
+  color: rgba(201, 162, 39, 0.65);
+  font-size: 0.85rem;
+  border-left: 2px solid rgba(62, 207, 130, 0.25);
+  padding-left: 0.9rem;
+}
+
+/* ── Closing quote ── */
+.gov-closing {
+  max-width: 740px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.gov-quote {
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, #3ecf82, #c9a227) 1;
+  border-radius: 0 12px 12px 0;
+  padding: 1.5rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.gov-quote span {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.gov-quote em {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
 /* ─── Footer ─────────────────────────────────────────────────── */
 footer {
   background: var(--dark-mid);
