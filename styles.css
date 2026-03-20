@@ -1567,6 +1567,266 @@ blockquote::after  { content: '\201D'; color: var(--gold); font-size: 3rem; line
   margin: 0;
 }
 
+/* ─── Faithful Witness ───────────────────────────────────────── */
+#witness {
+  background: linear-gradient(150deg, #0d0e1a 0%, #131426 40%, var(--dark-mid) 100%);
+  position: relative;
+  overflow: hidden;
+}
+#witness::before {
+  content: '';
+  position: absolute;
+  top: -80px; right: -60px;
+  width: 380px; height: 380px;
+  background: radial-gradient(circle, rgba(140, 100, 220, 0.14) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+#witness::after {
+  content: '';
+  position: absolute;
+  bottom: -80px; left: -60px;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(201, 162, 39, 0.10) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ── Ge'ez centrepiece ── */
+.witness-geez {
+  max-width: 780px;
+  margin: 0 auto 3.5rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.witness-geez-text {
+  background: linear-gradient(135deg, rgba(140, 100, 220, 0.08), rgba(201, 162, 39, 0.06));
+  border: 1px solid rgba(140, 100, 220, 0.25);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.witness-geez-script {
+  font-size: clamp(1.3rem, 3.5vw, 2rem);
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background: linear-gradient(90deg, #a78bfa, var(--gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 0.8rem;
+}
+
+.witness-geez-transliteration {
+  font-size: 0.88rem;
+  color: rgba(167, 139, 250, 0.65);
+  font-style: italic;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.9rem;
+}
+
+.witness-geez-trans {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.witness-geez-source {
+  display: inline-block;
+  padding: 0.25rem 0.9rem;
+  background: rgba(140, 100, 220, 0.08);
+  border: 1px solid rgba(140, 100, 220, 0.2);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: rgba(167, 139, 250, 0.7);
+  letter-spacing: 0.05em;
+}
+
+/* ── Meaning block ── */
+.witness-meaning {
+  max-width: 780px;
+  margin: 0 auto 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.witness-meaning-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1.1rem;
+}
+
+.witness-meaning p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 0.9rem;
+}
+.witness-meaning p em { color: #a78bfa; font-style: normal; font-weight: 600; }
+
+.witness-meaning-ti {
+  font-style: italic;
+  color: rgba(167, 139, 250, 0.6) !important;
+  border-left: 2px solid rgba(140, 100, 220, 0.3);
+  padding-left: 1rem;
+  font-size: 0.87rem !important;
+  line-height: 1.65 !important;
+}
+
+/* ── Three pillars ── */
+.witness-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.6rem;
+  max-width: 1100px;
+  margin: 0 auto 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.witness-pillar {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 1.8rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+.witness-pillar:hover {
+  transform: translateY(-6px);
+  border-color: rgba(140, 100, 220, 0.3);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+}
+
+.witness-pillar-icon { font-size: 2.2rem; }
+
+.witness-pillar-badge {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  background: rgba(140, 100, 220, 0.1);
+  border: 1px solid rgba(140, 100, 220, 0.25);
+  border-radius: 20px;
+  font-size: 0.78rem;
+  color: #a78bfa;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.witness-pillar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.witness-pillar p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.witness-pillar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.witness-pillar-list li {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  padding-left: 1.2rem;
+  position: relative;
+  line-height: 1.5;
+}
+.witness-pillar-list li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: #a78bfa;
+  font-weight: 700;
+}
+
+.witness-pillar-ti {
+  font-size: 0.81rem;
+  font-style: italic;
+  color: rgba(167, 139, 250, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 0.7rem;
+  line-height: 1.55;
+  margin: 0;
+  margin-top: auto;
+}
+
+/* ── Pledge card ── */
+.witness-pledge {
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.witness-pledge-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.witness-pledge-card {
+  background: linear-gradient(135deg, rgba(140, 100, 220, 0.07), rgba(201, 162, 39, 0.05));
+  border: 1px solid rgba(140, 100, 220, 0.22);
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, #a78bfa, #c9a227) 1;
+  border-radius: 0 16px 16px 0;
+  padding: 2rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.witness-pledge-geez {
+  font-size: 1.2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #a78bfa, var(--gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.witness-pledge-lines {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 2;
+  margin: 0;
+}
+.witness-pledge-lines span { display: inline-block; }
+
+.witness-pledge-ti {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: rgba(167, 139, 250, 0.65);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  padding-top: 0.9rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
 /* ─── Footer ─────────────────────────────────────────────────── */
 footer {
   background: var(--dark-mid);
