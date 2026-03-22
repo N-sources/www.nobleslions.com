@@ -493,3 +493,6 @@ we need to developing our society & country ,  we soulde have beening developing
 
 
 ብዝተ ፈላለዩ    ሜላታት  እና  ተጠቀምና   ህዝብናን ወገናትናን  ካብ ሕሱም  ናይ ጭንቀትን  ሕናቅ ወልፍን  ከነድሕኖምን  ክንድግፎምን ይግበኣና  。
+
+
+ኣብ  ሂወት ብዙሕ
