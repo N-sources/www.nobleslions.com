@@ -502,3 +502,6 @@ we need to developing our society & country ,  we soulde have beening developing
 
 
 ![mind](https://github.com/user-attachments/assets/2c1aa514-6daa-4265-8538-56e2af804580)   ምግባረ  ሰናይን   ሓልዮትን   ሰናይ  ነገር  ኣብ  ነሓድሕዳዊ   ይሃልወና
+
+
+![mind](https://github.com/user-attachments/assets/2c1aa514-6daa-4265-8538-56e2af804580)   ነዞም  ውልቃዊ   ረብሓ  ሒዞም ዝጎዓዚ ሰባት ካብ ሞንጎና  መዝሒቁና  ከነውጽኦም ይግበኣና ፣  ሰላምና  ሕውነትናን ባህልናን  ዘሪጎም  ናቶም ኣጀንዳ  ንከንጽፉ  ዝፍትኑ  ሰባት ቦታ  ክንህቦም የብልናን ፣ ምኽንያቱ   መጀመርታ  ፍቅርን  ሰላምን  ሓድሕዳዊ   ሓልዮትን   ኣብ ሞንጎና  ስሙር ጥርናፈን ንክህልወና  ክንሰርሕ  ይግበኣና ፣  ቀጺሉ  ድማ  ብትምህርትን  ዘመናዊ ቴክኖለጅን  ዝሓዘለ   ወለዶን   ሕብረተ  ሰብን ከህልወናን  ክንከውንን  ናብ  መንገዲ   ዓወት ዝወስድ ጎደና  ክንጎዓዝ  ይግበኣና  ።
