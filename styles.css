@@ -2425,6 +2425,329 @@ blockquote::after  { content: '\201D'; color: var(--gold); font-size: 3rem; line
   margin: 0;
 }
 
+/* ─── Rest after Victory ─────────────────────────────────────── */
+#rest {
+  background: linear-gradient(150deg, #110f06 0%, #1a150a 40%, var(--dark-mid) 100%);
+  position: relative;
+  overflow: hidden;
+}
+#rest::before {
+  content: '';
+  position: absolute;
+  top: -80px; right: -60px;
+  width: 420px; height: 420px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+#rest::after {
+  content: '';
+  position: absolute;
+  bottom: -60px; left: -80px;
+  width: 340px; height: 340px;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ── Core declaration ── */
+.rest-declaration {
+  max-width: 860px;
+  margin: 0 auto 3.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, #fbbf24, #f59e0b) 1;
+  border-radius: 0 14px 14px 0;
+  padding: 1.8rem 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.rest-decl-ti {
+  margin-bottom: 1.2rem;
+}
+.rest-decl-ti p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.8;
+  margin: 0 0 0.4rem;
+}
+.rest-decl-ti p:last-child { margin: 0; }
+
+.rest-decl-en {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.7;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  padding-top: 1rem;
+  margin: 0;
+}
+
+/* ── Block structure ── */
+.rest-block {
+  max-width: 980px;
+  margin: 0 auto 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.rest-block-header {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  margin-bottom: 1.6rem;
+}
+
+.rest-block-num {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  border-radius: 8px;
+  padding: 0.3rem 0.65rem;
+  flex-shrink: 0;
+  margin-top: 0.6rem;
+}
+
+.rest-block-tag {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  background: rgba(251, 191, 36, 0.08);
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #fbbf24;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.rest-block-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #fbbf24, #fde68a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 0.5rem;
+}
+
+.rest-block-intro {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Victory pillar cards ── */
+.rest-pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+.rest-pillar-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 1.4rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.rest-pillar-card:hover {
+  border-color: rgba(251, 191, 36, 0.25);
+  transform: translateY(-5px);
+}
+
+.rest-pillar-icon { font-size: 1.9rem; }
+
+.rest-pillar-card h4 {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.rest-pillar-card p {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.rest-pillar-ti {
+  font-style: italic;
+  color: rgba(251, 191, 36, 0.52) !important;
+  font-size: 0.8rem !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 0.5rem;
+  line-height: 1.55 !important;
+  margin-top: auto !important;
+}
+
+/* ── Why cards ── */
+.rest-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+.rest-why-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 1.2rem 1.3rem;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.rest-why-card:hover {
+  border-color: rgba(251, 191, 36, 0.22);
+  transform: translateY(-4px);
+}
+
+.rest-why-icon { font-size: 1.8rem; flex-shrink: 0; margin-top: 0.1rem; }
+
+.rest-why-card strong {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+}
+
+.rest-why-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0 0 0.5rem;
+}
+.rest-why-card p:last-child { margin: 0; }
+
+.rest-why-ti {
+  font-style: italic;
+  color: rgba(251, 191, 36, 0.55) !important;
+  font-size: 0.81rem !important;
+  border-left: 2px solid rgba(251, 191, 36, 0.22);
+  padding-left: 0.7rem;
+  line-height: 1.55 !important;
+}
+
+/* ── How / steps accordion ── */
+.rest-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.rest-step {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color var(--transition);
+}
+.rest-step[open] { border-color: rgba(251, 191, 36, 0.25); }
+.rest-step:hover { border-color: rgba(251, 191, 36, 0.18); }
+
+.rest-step summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.3rem;
+  cursor: pointer;
+  font-size: 0.94rem;
+  font-weight: 700;
+  color: var(--text);
+  list-style: none;
+  user-select: none;
+}
+.rest-step summary::-webkit-details-marker { display: none; }
+.rest-step summary::after {
+  content: '›';
+  margin-left: auto;
+  color: #fbbf24;
+  font-size: 1.2rem;
+  transition: transform var(--transition);
+}
+.rest-step[open] summary::after { transform: rotate(90deg); }
+
+.rest-step-num {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  border-radius: 6px;
+  padding: 0.15rem 0.5rem;
+  flex-shrink: 0;
+}
+
+.rest-step-body {
+  padding: 0 1.3rem 1.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.rest-step-body p {
+  font-size: 0.87rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0.8rem 0 0;
+}
+
+.rest-step-ti {
+  font-style: italic;
+  color: rgba(251, 191, 36, 0.55) !important;
+  font-size: 0.82rem !important;
+  border-left: 2px solid rgba(251, 191, 36, 0.22);
+  padding-left: 0.8rem;
+  margin-top: 0.6rem !important;
+}
+
+/* ── Affirmation banner ── */
+.rest-affirm {
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.rest-affirm-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.07), rgba(245, 158, 11, 0.05));
+  border: 1px solid rgba(251, 191, 36, 0.22);
+  border-radius: 16px;
+  padding: 1.6rem 1.8rem;
+}
+
+.rest-affirm-icon { font-size: 2rem; flex-shrink: 0; margin-top: 0.1rem; }
+
+.rest-affirm-ti {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.65;
+  margin: 0 0 0.6rem;
+}
+
+.rest-affirm-en {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0;
+}
+
 /* ─── Footer ─────────────────────────────────────────────────── */
 footer {
   background: var(--dark-mid);
