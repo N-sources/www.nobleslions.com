@@ -3701,6 +3701,157 @@ blockquote::after  { content: '\201D'; color: var(--gold); font-size: 3rem; line
 .skill-affirm-ti { font-size: 1rem; font-weight: 700; color: var(--text); line-height: 1.65; margin: 0 0 0.6rem; }
 .skill-affirm-en { font-size: 0.88rem; color: var(--text-muted); font-style: italic; line-height: 1.7; margin: 0; }
 
+/* ─── Craft before Money ─────────────────────────────────────── */
+#craft {
+  background: linear-gradient(150deg, #070d0e 0%, #0b1518 40%, var(--dark-mid) 100%);
+  position: relative;
+  overflow: hidden;
+}
+#craft::before {
+  content: '';
+  position: absolute;
+  top: -80px; right: -60px;
+  width: 440px; height: 440px;
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+#craft::after {
+  content: '';
+  position: absolute;
+  bottom: -60px; left: -80px;
+  width: 360px; height: 360px;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.craft-declaration {
+  max-width: 860px;
+  margin: 0 auto 3.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, #22d3ee, #06b6d4) 1;
+  border-radius: 0 14px 14px 0;
+  padding: 1.8rem 2rem;
+  position: relative;
+  z-index: 1;
+}
+.craft-decl-ti { margin-bottom: 1.2rem; }
+.craft-decl-ti p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.85;
+  margin: 0 0 0.15rem;
+}
+.craft-decl-ti p:last-child { margin: 0; }
+.craft-decl-en {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.75;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.craft-block { max-width: 980px; margin: 0 auto 3rem; position: relative; z-index: 1; }
+.craft-block-header { display: flex; gap: 1.2rem; align-items: flex-start; margin-bottom: 1.6rem; }
+
+.craft-block-num {
+  font-size: 0.75rem; font-weight: 800; letter-spacing: 0.06em;
+  color: #22d3ee;
+  background: rgba(6, 182, 212, 0.1);
+  border: 1px solid rgba(6, 182, 212, 0.25);
+  border-radius: 8px; padding: 0.3rem 0.65rem; flex-shrink: 0; margin-top: 0.6rem;
+}
+.craft-block-tag {
+  display: inline-block; padding: 0.2rem 0.8rem;
+  background: rgba(6, 182, 212, 0.08); border: 1px solid rgba(6, 182, 212, 0.2);
+  border-radius: 20px; font-size: 0.75rem; color: #22d3ee;
+  font-weight: 600; letter-spacing: 0.04em; margin-bottom: 0.5rem;
+}
+.craft-block-title {
+  font-size: 1.2rem; font-weight: 800;
+  background: linear-gradient(90deg, #22d3ee, #67e8f9);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  margin: 0 0 0.5rem;
+}
+.craft-block-intro { font-size: 0.88rem; color: var(--text-muted); line-height: 1.7; margin: 0; }
+
+.craft-pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+.craft-pillar-card {
+  background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px; padding: 1.4rem 1.2rem;
+  display: flex; flex-direction: column; gap: 0.6rem;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.craft-pillar-card:hover { border-color: rgba(6, 182, 212, 0.28); transform: translateY(-5px); }
+.craft-pillar-icon { font-size: 1.9rem; }
+.craft-pillar-card h4 { font-size: 0.92rem; font-weight: 700; color: var(--text); margin: 0; }
+.craft-pillar-card p { font-size: 0.84rem; color: var(--text-muted); line-height: 1.65; margin: 0; }
+.craft-pillar-ti {
+  font-style: italic; color: rgba(34, 211, 238, 0.52) !important; font-size: 0.8rem !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 0.5rem;
+  line-height: 1.55 !important; margin-top: auto !important;
+}
+
+.craft-why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+.craft-why-card {
+  display: flex; gap: 1rem; align-items: flex-start;
+  background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px; padding: 1.2rem 1.3rem;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.craft-why-card:hover { border-color: rgba(6, 182, 212, 0.24); transform: translateY(-4px); }
+.craft-why-icon { font-size: 1.8rem; flex-shrink: 0; margin-top: 0.1rem; }
+.craft-why-card strong { display: block; font-size: 0.95rem; font-weight: 700; color: var(--text); margin-bottom: 0.4rem; }
+.craft-why-card p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.7; margin: 0 0 0.5rem; }
+.craft-why-card p:last-child { margin: 0; }
+.craft-why-ti {
+  font-style: italic; color: rgba(34, 211, 238, 0.55) !important; font-size: 0.81rem !important;
+  border-left: 2px solid rgba(6, 182, 212, 0.24); padding-left: 0.7rem; line-height: 1.55 !important;
+}
+
+.craft-steps { display: flex; flex-direction: column; gap: 0.8rem; }
+.craft-step {
+  background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px; overflow: hidden; transition: border-color var(--transition);
+}
+.craft-step[open] { border-color: rgba(6, 182, 212, 0.28); }
+.craft-step:hover { border-color: rgba(6, 182, 212, 0.18); }
+.craft-step summary {
+  display: flex; align-items: center; gap: 1rem; padding: 1rem 1.3rem;
+  cursor: pointer; font-size: 0.94rem; font-weight: 700; color: var(--text);
+  list-style: none; user-select: none;
+}
+.craft-step summary::-webkit-details-marker { display: none; }
+.craft-step summary::after { content: '›'; margin-left: auto; color: #22d3ee; font-size: 1.2rem; transition: transform var(--transition); }
+.craft-step[open] summary::after { transform: rotate(90deg); }
+.craft-step-num {
+  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.04em; color: #22d3ee;
+  background: rgba(6, 182, 212, 0.1); border: 1px solid rgba(6, 182, 212, 0.25);
+  border-radius: 6px; padding: 0.15rem 0.5rem; flex-shrink: 0;
+}
+.craft-step-body { padding: 0 1.3rem 1.2rem; border-top: 1px solid rgba(255, 255, 255, 0.05); }
+.craft-step-body p { font-size: 0.87rem; color: var(--text-muted); line-height: 1.7; margin: 0.8rem 0 0; }
+.craft-step-ti {
+  font-style: italic; color: rgba(34, 211, 238, 0.55) !important; font-size: 0.82rem !important;
+  border-left: 2px solid rgba(6, 182, 212, 0.24); padding-left: 0.8rem; margin-top: 0.6rem !important;
+}
+
+.craft-affirm { max-width: 860px; margin: 0 auto; position: relative; z-index: 1; }
+.craft-affirm-inner {
+  display: flex; align-items: flex-start; gap: 1.2rem;
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.07), rgba(14, 165, 233, 0.05));
+  border: 1px solid rgba(6, 182, 212, 0.22); border-radius: 16px; padding: 1.6rem 1.8rem;
+}
+.craft-affirm-icon { font-size: 2rem; flex-shrink: 0; margin-top: 0.1rem; }
+.craft-affirm-ti { font-size: 1rem; font-weight: 700; color: var(--text); line-height: 1.65; margin: 0 0 0.6rem; }
+.craft-affirm-en { font-size: 0.88rem; color: var(--text-muted); font-style: italic; line-height: 1.7; margin: 0; }
+
 /* ─── Footer ─────────────────────────────────────────────────── */
 footer {
   background: var(--dark-mid);
