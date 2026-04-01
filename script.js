@@ -1039,6 +1039,9 @@ const translations = {
     discWhy3Title: "Using the people's resources against the people is the deepest betrayal",
     discWhy3Text: "There are many ways to harm a community. Among the most profound is to take what belongs to the community — its wealth, its institutions, its trust — and use those very things against it. When community wealth funds division, when institutional authority funds oppression, when the people's own resources are turned into instruments of their suppression — the betrayal is complete. This is not an accident; it is the deliberate strategy of those who have captured what belongs to the people.",
     discWhy3Ti: "ሃብቲ ህዝቢ ። ናብ ጭቆና ። ዝዓቀ ። ሓቀኛ ። ናይ ምሕዛን ።",
+    discWhy4Title: "The system does not care about our faith, culture, education, or community — but we must not sleep",
+    discWhy4Text: "The existing system in Eritrea does not care about the survival and flourishing of our religion, our culture, our development, or the education of our community. What it has is personal interest and a hunger for power — nothing more. But we must not sleep in our lives. We must not be passive while what gives life its meaning is being eroded. Because it is with our parents, our community, and our people that the true taste of happiness and joy is found. The system cannot give us that. Only our own active, awake, collective life can. This is why we must rise — not later, but now.",
+    discWhy4Ti: "ስርዓት ። ሃይማኖት ። ባህሊ ። ትምህርቲ ። ህዝቢ ። ክንድቅስ የብልናን ። ደስታ ። ምስ ወለዲን ሕብረተሰብን ።",
     discHowTag: "ከምይ ንፍለጦ ንኣልዮ · How to Identify and Remove",
     discHowTitle: "How to Identify, Remove, and Protect Our Communities",
     discHowIntro: "This work requires clarity, courage, and collective commitment. It is not the work of one person or one leader — it is the shared responsibility of every member of the community who sees what is happening. These four steps describe what that responsibility looks like in practice.",
@@ -1064,6 +1067,8 @@ const translations = {
     discStep7Text: "Regular, structured public meetings between the people and their political leaders must be built into civic life — not as occasional gestures, but as a guaranteed, recurring practice. Three times a year, open dialogue must take place: covering the annual progress of the community, financial administration and how resources are being used, the level of educational development of our people, and every other matter that affects their lives. These meetings must be people-centred — not performances for politicians, but genuine accountability sessions in which the people hear, question, and hold their leaders to account. A people without regular access to open dialogue with those who claim to lead them is a people without the most basic protection against exploitation and misuse of their collective wealth.",
     discStep7Ti: "ኣኼባ ሰለስተ ጊዜ ። ፖለቲከኛታት ። ግሉጽ ዘተ ። ህዝቢ ።",
     discAffirm: "ዘከመ ይበዝሁ ማእምራነ በዉስተ ምድር — May the wise multiply in the world. We will identify those who suppress, remove them from trust, protect what belongs to the people, and serve our community together. This is the work of all of us.",
+    discCallUnity: "Let us try unity without discrimination — then we will understand its taste. We will quickly show the change of growth. Then we will understand the true benefit of unity and mutual support.",
+    discCallRise: "In every country where we are, let us rise together for development and growth.",
   },
   ti: {
     heroTitle:    "ሰላምን ርክብን <span class='highlight'>ብሃብታምነት ባህሊ</span>",
@@ -1558,6 +1563,9 @@ const translations = {
     discWhy3Title: "ሃብቲ ህዝቢ ናብ ጭቆና ምውዓሉ — ዝዓቀ ምሕዛን",
     discWhy3Text: "ሃብቲ ቤተ ክርስቲያንን ሃብቲ ህዝብናን ፣ ንህዝብና ንምብታንን ንምዝራግን ዝውዕሉ ። ህዝቢ ብጥሜት ። ሃብቱ ናብ ጭቆናኡ ። ህዝቢ ብጥሜት ተሳቅዩን ይነብር ኣሎ ። ስቅ ምባሉ — ህዝቢ ዘዋሰን ።",
     discWhy3Ti: "ሃብቲ ህዝቢ ። ናብ ጭቆና ። ምብታን ።",
+    discWhy4Title: "ስርዓት ናይ ሃይማኖትናን ባህልናን ትምህርትናን ዘይግደስ — ግን ክንድቅስ የብልናን",
+    discWhy4Text: "ኣብ ህላወን ናይ ሃይማኖትናን ባህልናን ፣ ምዕባለን ትምህርትን ናይ ሕብረተ ሰብና ዝግደስ ኣይመስለንን እዚ ዘሎ ስርዓት ኣብ ኢርትራና ። ማለት ውልቃዊ ረብሓን ፣ ህርፋን ናይ ስልጣን እዩ ዘለዎ ። ንሕና ግን ክንድቅስ የብልናን ኣብ ሂወትና ። ምክንያቱ ምስ ወለድናን ሕብረተ ሰብናን ህዝብናን እዩ እቲ መቀረት ናይ ደስታን ሓጎስን መቀረት ዘለዎ ። ስርዓት ናብ ደስታ ኣይወስደናን ። ናይ ባዕልና ንቁሕ ሕብረተሰብ ጥራሕ ። ስለዚ ሕጂ ምትስፋዕ — ዘይኮነ ጸኒሑ ።",
+    discWhy4Ti: "ስርዓት ። ሃይማኖት ። ባህሊ ። ትምህርቲ ። ህዝቢ ። ክንድቅስ የብልናን ። ደስታ ። ምስ ወለዲን ሕብረተሰብን ።",
     discHowTag: "ከምይ ንፍለጦ ንኣልዮ · ምኣልዮ",
     discHowTitle: "ከምይ ኣለሊና ካብ ቦታ ከነኣልዮምን ክንሕሉን",
     discHowIntro: "እዚ ዕዮ ድልዱል ብሓቢርካ ዝሰርሖ ። ናይ ሓደ ሰብ ዘይኮነ ። ናይ ኩሉ ሰብ ሓላፍነት ። ኣርባዕቲ ደረጃታት ።",
@@ -1583,6 +1591,8 @@ const translations = {
     discStep7Text: "ኣኼባን ኣብ ዓመት ሰለስተ ግዜ ክካየድን ፣ ኣብ ሞንጎ ህዝብናን ፖለቲከኛታትን ግሉጽ ዘተ ክግበር ኣለዎ — ግድን ክግበር ኣለዎ ። ናይ ዓመት ሂደትን ፋይናንሳዉን ስነ ምሕደራን ናይ ህዝብና ደረጃ ምዕባለ ትምህርትን ካልእ ዘጠቃለለ ኣኬባ ወይ ዘተ ክግበርን ህዝቢ ዘማእከል ክግበርን ክህሉን ይግበኣና ። ፖለቲከኛታት ናብ ህዝቢ ዝሓልፍዎ ሕሳብ ዘለዎ — ህዝቢ ዝሰምዕ ፣ ዝሓትት ፣ ዝቆጻጸር ። ህዝቢ ናብ ናቱ ሂደትን ሃብቱን ዝፈልጥ — ምዕቃቡ ።",
     discStep7Ti: "ኣኼባ ሰለስተ ጊዜ ። ፖለቲከኛታት ። ግሉጽ ዘተ ። ህዝቢ ።",
     discAffirm: "ዘከመ ይበዝሁ ማእምራነ በዉስተ ምድር — ሓቀኛ ፍልጠትን ጥበብን ክዓቢ ። ንህዝብና ካብ ዝፈናቅሎ ነጻ ። ሓቢርና ። ናይ ኩላትና ዕዮ እዩ ።",
+    discCallUnity: "እስከ ሕብረት ብዘይ ኣፈላላይ ንፈትኖ — ዘለዎ መቀረት ሽዑ ክርደኣና እዩ ። ብቅልጡፍ ለዉጢ ናይ ዕብየት ከነርኢ ኤና ። ሽዑ እዩ እታ ጥቅሚ ናይ ሕብራትን ምትሕግጋዝን ዝርደኣና ።",
+    discCallRise: "ኣብ ዘዘለናዮ ነብስወከፍ ሃገር ንምዕባለን ዕብየትን ንተንስእ ብሓደ ።",
   }
 };
 

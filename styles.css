@@ -4309,6 +4309,14 @@ blockquote::after  { content: '\201D'; color: var(--gold); font-size: 3rem; line
 .disc-step-body p { font-size: 0.87rem; color: var(--text-muted); line-height: 1.7; margin: 0.8rem 0 0; }
 .disc-step-ti { font-style: italic; color: rgba(52,211,153,0.55) !important; font-size: 0.82rem !important; border-left: 2px solid rgba(4,120,87,0.24); padding-left: 0.8rem; margin-top: 0.6rem !important; }
 
+.disc-call-unity { max-width: 980px; margin: 0 auto 2.5rem; position: relative; z-index: 1; }
+.disc-call-unity-inner { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.4rem; background: linear-gradient(135deg,rgba(4,120,87,0.06),rgba(52,211,153,0.04)); border: 1px solid rgba(4,120,87,0.25); border-radius: 18px; padding: 1.6rem 1.8rem; }
+.disc-call-icon { font-size: 2rem; flex-shrink: 0; margin-top: 0.15rem; }
+.disc-call-icon--right { margin-left: 0; }
+.disc-call-body { flex: 1; min-width: 200px; }
+.disc-call-ti { font-size: 1rem; font-weight: 700; color: var(--text); line-height: 1.7; margin: 0 0 0.45rem; }
+.disc-call-en { font-size: 0.87rem; color: var(--text-muted); font-style: italic; line-height: 1.7; margin: 0; }
+
 .disc-affirm { max-width: 860px; margin: 0 auto; position: relative; z-index: 1; }
 .disc-affirm-inner { display: flex; align-items: flex-start; gap: 1.2rem; background: linear-gradient(135deg,rgba(4,120,87,0.07),rgba(52,211,153,0.05)); border: 1px solid rgba(4,120,87,0.22); border-radius: 16px; padding: 1.6rem 1.8rem; }
 .disc-affirm-icon { font-size: 2rem; flex-shrink: 0; margin-top: 0.1rem; }
