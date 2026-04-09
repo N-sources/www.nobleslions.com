@@ -480,3 +480,6 @@ we need to developing our society & country ,  we soulde have beening developing
 
 
 ትምህርቲ  መሰረት  ኣብ ህጻንነትና  ከለና   ክንለማመድ ይግበኣና  ፣ እቲ  እንኮ   ጉዕዞ  ናይ ሂወትና   ንሱ  እዩ  ፣
+
+
+ክሳብ ደጋፊ ነይትስርዓት  ተቃወምትን  ኣብ መንጉኦም  ከኡመረዓዓዉ   እቶም ካህናት ከይተረፉ  ይሰርሕሉ  ኣለዉ  ።
