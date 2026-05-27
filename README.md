@@ -495,3 +495,69 @@ we need to developing our society & country ,  we soulde have beening developing
 ነዚ ክእለት ምስ ሃነጽካዮ፡ ደረት ብተመሳሳሊ መንገዲ ምርኣይ ኣቋርጽ።
 
 ተኽእሎን ምዕባለን ኣብ ነብስኻ ሓድሽ ደረጃ ርእሰ ተኣማንነትን ክትዕዘብ ትጅምር።
+
+
+
+Growth, Development, People and Country and its Origins ,
+
+
+
+
+
+We must strengthen this, create the care of our people, Tesko rcort, associations and communes and try to grow in all areas.
+
+The enemy of our people and culture, there are believers and vested interests within us, who are trying to destroy us in collaboration with Arab and Muslim countries
+
+We should establish any institutions and associations that we call our own, associations have many benefits and they have a great contribution in supporting and encouraging the people.
+
+of education and training, prevent and advocate for any injustice, crime and other rights violations in the public through the laws and regulations of the associations. 
+
+****
+
+
+The associations of lawyers, banks, and large institutions of a country or people should have the community of that country.
+
+A society , or community , should have , institutions and , associations To own associations means to have a large fortress, or security.
+
+We should try to instill this ideology in the minds of our people. (( Especially of the Eritrean Orthodox Church )), if we work on this focused, it has a great contribution in the life of the Christian community in ourselves.
+
+First, you are free from financial problems and troubles, in other begging, loans
+
+In other words, when her people are racially unemployed, she helps and encourages the poor church members and becomes a pillar of support for her children until they overcome their problems on their own.
+
+Its own institutions, associations and banks play an important role in its ability to protect its people from human rights abuses and injustices.
+
+While she has wealth and, her own, professionals, and leaders from her children, whom she has produced, play a great role, for her believers, her ministers, and for all Christians.
+
+Therefore, the church should govern its wealth by its educated and worthy children. Politicians , and the hand of the government , should not enter in all the offices of the church.
+
+Politicians, if they wish, can compete with the rich and politicians of the world and establish their wealth and institutions according to their ability.
+
+Therefore, the church, its wealth, its people, and all its conduct, should be governed by its educated children and ministers. 
+
+**** 
+
+
+
+How associations and institutions are formed
+
+
+A society or people of a country has a culture, beliefs and language. Therefore, as long as we live in the world as a people, there are competing or opposite, things in the world, of natural nature. Hence, as long as we are in a competitive world, we should be competitive. It also allows people to respect and fear you, as a society, to be respected, to grow, and to live proudly in the world.
+
+
+
+To get legitimacy and, competitiveness, law, in the world, if any society, or country, there is something that must come first, and that is the creation of unity, associations, institutions. You must be feared and respected, it is strength and unity, harmony and unity.
+
+
+
+For example, there are many, extinct peoples and races, societies, and countless countries that have been disintegrated and lost their traces. The cause of destruction and destruction of countries and people and society. The lack of a united people, and the lack of united societies.
+
+
+
+To prevent the destruction of the country and the destruction of the race and people. Being in the same line, united people, forming associations, walking together, and fighting problems and difficulties together, will lead you to the path of victory and make you respected and feared by the world as an example. Everywhere, your people live in peace and you live.
+
+
+
+Everyone respects you and befriends you.
+
+
