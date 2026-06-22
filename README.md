@@ -1,3 +1,36 @@
+## ጥንታዊ ህዝቢ፡ ካብ ሥሩ ናብ ዓለም ዝወዳዳር ወለዶ
+
+![Ancient heritage and traditional music illustration](https://github.com/user-attachments/assets/ancient-heritage-traditional-music)
+
+እቲ ክንገብሮ ዝግበኣና፣ ኣብ ዓለም ብትምህርትን ብካልእን ህዝብና ከመይ ጌርና ተወዳዳሪ ክኸውን ከም ዘለዎ ኢና ክንፍትን ዘለና።
+
+ንሕና ጥንታውያን ዝኾና ህዝቢ ኢና። ኣብ ዓለም እቶም ቀዳሞትን ጥንታውያንን ታሪኻውያንን ከም ዝኮና ክንፈልጥ ይግበኣና። ሕግና ኣብ ዓለም ኢና።
+
+ቀዳሞት ኣቦታትና ኣብዚ ግዜ ኮይነ ብዘመናዊ ህዝቢ ወይ ወለዶ ከነጽሮ እንከለና፣ ብጣዕሚ ሓያላትን በላሕትን እዮም ነይሮም።
+
+Our ancient ancestors were among the most advanced and historically significant people in the world. To make our people competitive globally — through education and beyond — we must first know and honour where we come from. Our forebears, measured against even the modern world, were remarkably capable and brilliant.
+
+---
+
+## ድምጺ ጥንታዊ መዝሙር ንዝተሰብረ መንፈስ ከዐሪ እንተዝኽእልከ?
+
+![Orthodox hymn illustration](https://github.com/user-attachments/assets/a670638f-8ba7-49d0-acaa-efa00e8a87f0)
+
+"ድምጺ ጥንታዊ መዝሙር ንዝተሰብረ መንፈስ ከዐሪ እንተዝኽእልከ? ኪኖ ጽቡቕ ዜማታት ጥራይ፡ መዝሙራት ክርስትያናዊት ኦርቶዶክሳውያን ዓሚቝ ናይ ምፍዋስ ሓይሊ ከም ዘለዎም ይእመን። ነዚ ቅዱስ ሙዚቃ ብዕምቆት ተንቀሳቓስን ምሕዳስን መዳያት ክንቃልዕ፡ ንነፍሲ ብኸመይ ከም ዝትንክፍን ብዘይትጽበዮ መንገዲ ምጽንናዕ ከም ዘምጽእን ክንድህስስ ከለና ተጸንበሩና።"
+
+ኣብዚ ክንርደኦ ዘለን እቲ ቀንዲ ሓሳብ፡ ቤት ክርስቲያን መሰርት ናይ ጥዕናን ትምህርትን ቲኦሎጂን ከም ዝኾነት እዩ።
+
+What if the sound of an ancient chant could mend a broken spirit? Beyond just beautiful melodies, Orthodox Christian hymns are believed to possess profound healing power. Join us as we uncover the deeply moving and restorative aspects of this sacred music, exploring how it touches the soul and brings solace in ways you might never expect.
+
+### ማሕበራዊ ራእይን መዓልታዊ ልምድን
+
+- ምዕቡል ሕብረተሰብን ሃገርን ንምፍጣር ዝዓለመ፣ ምዕቡል ምሁር ወለዶ ንምፍጣር ዝዕለመ መደብ እዩ።
+- ኣብ ጥንኩር እዋን ጽኑዕን በሊሕን ተዓጻጻፍነት ዘለዎ ሕብረተሰብ ምፍጣር።
+- ንጉሆ ተንሲእና ፈጠሪና ኣመስጊና፡ መዓልትና ብምምስጋን ክንጅምር ይግበኣና።
+- ንመንፈስና ዝቅስቅስ መዛሙራት፣ መዝሙር ዳዊትን መጽሓፍ ቅዱስ ጥቅስታትን ደጋጊምካ ምንባብን ምድጋምን።
+- ኣነቓቓሕቲ ንውሽጣዊ ምውንፋስና ክቕስቕሱ፣ መዛሙር ወይ መንፋሳዊ ዜማ ምስማዕ።
+- እዚ ዘበገሰ መንፈሳዊ ሓይሊ መዓልታዊ ንጥፈታትና ብዘይ እንቅፋት ክንፍጽም የኽእለና።
+
 ምዕቡል ብሁርን  ፣  ፍልጠት ዝደለበ   ሕብረተሰብ  ንምፍጣርን  ፣  ኣብ ሓንቲ ቅኒት  ዝሰመረ  ሓድሕዳዊ  ምትሕግጋዝ ዘለዎን ፣ ብሕጊ  ዝተመእዘነን  ብለባመት ዝተከበን ሕብረተሰብ ንምፍጣር  ዝዓለመ  እዩ  እዚ መደብ ።
 
 Civil justice
